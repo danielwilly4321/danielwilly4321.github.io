@@ -1,0 +1,123 @@
+body{
+  background-image: url("../IMAGENES/spinosaurida.jpg");
+
+}
+
+h1{
+  background-color: rgb(71, 117, 157);
+  margin-left: 100px;
+  margin-right: 100px;
+  color: azure;
+  font-size:30 ;
+  position: static,center;
+  top:0px;
+  left:0px;
+  padding:5px;
+  margin: 10px;
+  width: fit-content;
+  border-radius: 10px;
+
+}
+.navbar{
+  
+  display: flex;
+  margin-right: 10px;
+  position: static,center;
+  
+  top: 70px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+
+  background-color: rgb(224, 131, 10);
+}
+.navbar a{
+  display:block;
+  padding: 20px 20px;
+  color:#fff;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 20px;
+}
+.navbar a:hover{
+  background: #050505;
+}
+    h2{
+      
+      font-size: 30px ;
+      color: purple;
+      font-style: Arial black;
+      font-weight: bold;
+      margin-left: 100px;
+      margin-right: 100px;
+      position: static;
+      text-align: center;
+      top: 130px;
+      left: 0px;
+      padding: 0px;
+      margin: 10px;
+      width: 100%;
+    }
+  .one {
+    text-align: center;
+  }
+
+  #comentarios {
+    border: 1px solid #0c0b0b;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 10px;
+  }
+
+  #formulario-comentario input[type="text"],
+  #formulario-comentario textarea,
+  #formulario-comentario button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #formulario-comentario button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius:100px ;
+   
+
+  }
+
+  #formulario-comentario button:hover {
+    background-color: #07b14e;
+  }
+
+  #comentarios div {
+    margin-bottom: 5px;
+  }
+
+  .accion {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #337ab7;}
+    .like-btn {
+        margin-left: 10px;
+        cursor: pointer;
+        color: #ff0000;
+      }
+  
+      .liked {
+        font-weight: bold;
+      }
+      h5{
+        color: rgb(8, 157, 45);
+        font-size: 20px;
+        background-color: orangered;
+        padding: 5px;
+        border-radius: 10px;
+        width: fit-content;
+      }
